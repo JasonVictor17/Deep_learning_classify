@@ -87,9 +87,16 @@ celerybeat-schedule
 venv/
 ENV/
 
+#ignore the file pth
+.pth
+
 # Spyder project settings
 .spyderproject
 .spyproject
+
+# ignore jpg
+.jpg
+.jpeg
 
 # Rope project settings
 .ropeproject
@@ -99,3 +106,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+flowers
