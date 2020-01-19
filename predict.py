@@ -27,7 +27,7 @@ lables = args.category_names
 
 model = main.load_checkpoint(checkpoint_path)
 
-with open('cat_to_name.json', 'r') as f:
+with open('lables', 'r') as f:
     cat_to_name = json.load(f)
 
 prob, classes = main.predict(img_path, model)
